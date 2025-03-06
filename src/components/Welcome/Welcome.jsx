@@ -1,7 +1,7 @@
 // import a css file containig welcome styles
 import "./Welcome.css"
 // Create a Welcome function returning the HTML of welcome block
-const welcome = () => {
+const Welcome = () => {
     return (
         <section className="welcome">
         <span className="welcome__text">Sticky Header!</span>
@@ -9,4 +9,4 @@ const welcome = () => {
     )
 }
 // Add a default export statement for Welcome component to use it in the other files
-export default welcome
+export default Welcome
