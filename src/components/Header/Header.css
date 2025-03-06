@@ -18,6 +18,7 @@
     padding: 0;
     font-size: inherit;
   }
+  
   .navigation__link {
     display: inline-block;
     outline: none;
